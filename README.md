@@ -115,7 +115,7 @@ public Date(String month, int day, int year)
 
 28. The main difference is the contents of the body. *getPrice()* is a simple return statement. While *printTicket* prints several lines and updates the values of 2 variables.
 
-29. No. They are *void*. Additionally, they purpose does not require them to return any values.
+29. No. They are of the *void* return type. Additionally, they purpose does not require them to return any values.
 
 ``` java
 // Q31
@@ -152,7 +152,18 @@ public void setAlive(boolean isAlive)
 }
 ```
 
+36. The value of ***price*** stays 0. I would assume this is due to the global variable price having preedence over the local parameter.
 
+37. My cat has green eyes.
+
+39. It would print: 
+``` text
+# price cents.
+```
+40. It would print:
+``` text
+# price cents.
+```
 
 
 
