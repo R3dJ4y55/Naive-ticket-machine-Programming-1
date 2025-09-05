@@ -23,7 +23,7 @@ public class LabClass
 ```
 7. Yes, it matters. if we write ***class public TicketMachine*** the class diagram for *TicketMachine* goes red, indicating an error.
 
-7(Continued). We get 2 errors. (1) *** <identifier> expected***, and (2) ***class, interface, enum, or record expected***
+7(Continued). We get 2 errors. (1) *** \<identifier\> expected***, and (2) ***class, interface, enum, or record expected***
 
 7(Continued 2). I do not believe the message is that clear, a beginner might have some issues with comprehension.
 
@@ -43,5 +43,32 @@ public class LabClass
 * getBalance
 * insertMoney
 * printTicket
+---
+11. (1) It Starts with a capital letter. (2) it doesn't specify a datatype
+
+12.
+| Field | DataType |
+| ----- | -------- |
+| private int count; | int |
+| private Student representative; | Student |
+| private Server host; | Server |
+
+13.
+| Field | Name |
+| ------ | ---- |
+| private boolean alive; | alive |
+| private Person tutor; | tutor |
+| private Game game; | game |
+
+14. The class names are: 
+* Student
+* Server
+* Person
+* Game
+
+
+
+
+
 
 
