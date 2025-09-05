@@ -164,7 +164,9 @@ public void setAlive(boolean isAlive)
 ``` text
 # price cents.
 ```
+42. They have different outputs. They output the value of ***price*** stored locally in the object.
 
+43. The output is identical. %d must refer to the ***price*** specified after the string. the %n is newline(linebreak).
 
 
 
