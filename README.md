@@ -21,9 +21,9 @@ public class LabClass
 
 }
 ```
-7. Yes. if we write ***class public TicketMachine*** the class diagram for *TicketMachine* goes red, indicating an error.
+7. Yes, it matters. if we write ***class public TicketMachine*** the class diagram for *TicketMachine* goes red, indicating an error.
 
-7(Continued). We get 2 errors. (1) ***<identifier> expected***, and (2) ***class, interface, enum, or record expected***
+7(Continued). We get 2 errors. (1) *** <identifier> expected***, and (2) ***class, interface, enum, or record expected***
 
 7(Continued 2). I do not believe the message is that clear, a beginner might have some issues with comprehension.
 
@@ -33,15 +33,15 @@ public class LabClass
 
 ## Question 10 list
 ### Fields
-*price
-*balance
-*total
+* price
+* balance
+* total
 ### Constructors
-*Ticketmachine
+* Ticketmachine
 ### Methods
-*getPrice
-*getBalance
-*insertMoney
-*printTicket
+* getPrice
+* getBalance
+* insertMoney
+* printTicket
 
 
