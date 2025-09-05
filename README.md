@@ -95,6 +95,73 @@ public Pet(String petsName)
 {
     name = petsName;
 }
+```
+``` java
+// Q22 - Challenge exercise
+
+public Date(String month, int day, int year) 
+{
+
+}
+```
+
+23. In the headers, the name of the methods are different. In the bodies, getPrice() returns the value for ***price***, while getBalance() returns the value for ***balance***
+
+24. getBalance() : "How much money was given to the machine?"
+
+25. No. The accessor method having the same name as the return variable is only convention, not law.
+
+27. *missing return statement*
+
+28. The main difference is the contents of the body. *getPrice()* is a simple return statement. While *printTicket* prints several lines and updates the values of 2 variables.
+
+29. No. They are *void*. Additionally, they purpose does not require them to return any values.
+
+``` java
+// Q31
+
+public void increaseScore(int points)
+{
+    score = score + points; // OR score += points;
+}
+```
+
+32. Yes, addCredits is a mutator method. To demonstrate, (1) get the initial value of *credits* for the student object. (2) add a positive, non-zero, number of credits. (3) get the final value of *credits* and compare it with the initial value. They will differ.
+
+``` java
+// Q 33
+public void discount(int amount)
+{
+    price -= amount;
+}
+```
+``` java 
+// Q 34
+
+public void setAge(int currentAge)
+{
+    age = currentAge;
+}
+```
+``` java
+// Q35
+
+public void setAlive(boolean isAlive)
+{
+    alive = isAlive;
+}
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
