@@ -168,8 +168,9 @@ public void setAlive(boolean isAlive)
 
 43. The output is identical. %d must refer to the ***price*** specified after the string. the %n is newline(linebreak).
 
+44. We are only asked to specify a name. No parameter is asked of us.
 
-
+46. empty() is a mutator. It changes the value of a variable.
 
 
 

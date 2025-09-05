@@ -29,6 +29,18 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
+    public TicketMachine()
+    {
+        price = 1000;
+        balance = 0;
+        total = 0;
+    }
+    
+    public void empty()
+    {
+        total = 0;
+    }
+    
 
     /**
      * Return the price of a ticket.
