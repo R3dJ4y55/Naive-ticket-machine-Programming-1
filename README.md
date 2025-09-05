@@ -23,7 +23,7 @@ public class LabClass
 ```
 7. Yes, it matters. if we write ***class public TicketMachine*** the class diagram for *TicketMachine* goes red, indicating an error.
 
-7(Continued). We get 2 errors. (1) *** \<identifier\> expected***, and (2) ***class, interface, enum, or record expected***
+7(Continued). We get 2 errors. (1) ***\<identifier\> expected***, and (2) ***class, interface, enum, or record expected***
 
 7(Continued 2). I do not believe the message is that clear, a beginner might have some issues with comprehension.
 
@@ -44,7 +44,7 @@ public class LabClass
 * insertMoney
 * printTicket
 ---
-11. (1) It Starts with a capital letter. (2) it doesn't specify a datatype
+11. (1) It starts with a capital letter. (2) It doesn't specify a datatype
 
 12.
 | Field | DataType |
@@ -66,7 +66,35 @@ public class LabClass
 * Person
 * Game
 
+15. It does matter which order *private int price;* appears in.
 
+16. Yes, a field declaration must end with a semicolon.
+``` java
+// Q17
+private int status;
+```
+
+18. It belongs to the class *Student*
+
+19. It has 2 parameters.
+* String
+* double
+
+20. 
+
+(a) It will need to be stored for as long as the object exists. It may be stored in a variable.
+
+(b) No.  
+
+(c) No.
+
+``` java
+// Question 21
+
+public Pet(String petsName)
+{
+    name = petsName;
+}
 
 
 
