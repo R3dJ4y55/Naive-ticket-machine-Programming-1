@@ -171,7 +171,7 @@ public void setAlive(boolean isAlive)
 44. We are only asked to specify a name. No parameter is asked of us.  
 
 
-46. empty() is a mutator. It changes the value of a variable.
+\46. empty() is a mutator. It changes the value of a variable.
 
 
 
